@@ -88,6 +88,7 @@ body{
     .main-banner-section{
         background-position: left;
         background-size: cover;
+        width: 576px;
     }
     .banner-description{
         top: 10%;
@@ -116,7 +117,7 @@ body{
     .build-products-section h2{
         font-size: 2em;
     }
-    .build-products-images{
+    .build-products-images img{
         width: 70%;
         margin: 0 auto;
         
