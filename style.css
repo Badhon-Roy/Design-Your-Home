@@ -7,7 +7,6 @@
 body{
     font-family: 'Rubik', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-    margin-bottom: 500px;
 }
 
 .container{
@@ -30,6 +29,14 @@ body{
     background-color:#f05510 ;
     color: white;
 }
+.btn:hover{
+    background-color: black;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+
+}
 /* Global style end */
 
 
@@ -49,14 +56,7 @@ body{
     padding: 2%;
     box-shadow: 2px 2px 15px 3px rgb(45, 47, 48);
 }
-.banner-description .btn:hover{
-    background-color: black;
-}
-.banner-description .btn a{
-    text-decoration: none;
-    color: white;
 
-}
 
 /* header section end */
 
@@ -72,12 +72,14 @@ body{
 .build-products-images img{
     width: 350px;
     height: 350px;
+    
 }
 .build-products-images{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
+    margin-bottom: 5em;
 }
 /* build-products-section-end */
 
@@ -157,8 +159,6 @@ body{
     }
     .build-products-images img{
         width: 100%;
-        
-        
     }
 }
 
