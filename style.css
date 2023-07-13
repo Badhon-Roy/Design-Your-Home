@@ -109,10 +109,16 @@ body{
         position: relative;
         left: 10%;
     }
+    .build-products-section{
+        width: 576px;
+        text-align: center;
+    }
+    .build-products-section h2{
+        font-size: 2em;
+    }
     .build-products-images{
-        position: relative;
-        left: %;
-        right: 10%;
+        width: 70%;
+        margin: 0 auto;
         
     }
 }
