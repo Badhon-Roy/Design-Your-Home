@@ -1,0 +1,106 @@
+/* Global style start */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.main-title{
+    font-size: 3em;
+}
+.description{
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    line-height: 2em;
+}
+.btn{
+    font-size: 1.2em;
+    padding: 1em 3em;
+    border-radius: 50px;
+    border: none;
+    background-color:#f05510 ;
+    color: white;
+}
+.btn:hover{
+    background-color: black;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+
+}
+/* Global style end */
+
+/* main-2-banner-section start */
+.main-2-banner-section{
+    width: 100%;
+    height: 85vh;
+    background-image: linear-gradient(to right, #ffc8dd, #b295f7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-2-banner-section h1{
+    font-size: 60px;
+    color: white;
+    max-width: 60%;
+    margin: 0 auto;
+}
+.main-2-banner-section p{
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px 0px;
+
+}
+.banner-img-1{
+    position: relative;
+    top: 10%;
+    left: 30%;
+}
+.banner-img-2{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+}
+/* main-2-banner-section end */
+
+
+
+/* media quary start */
+
+/* media small device start */
+@media screen and (max-width: 576px) {
+    .main-2-banner-section{
+        width: 576px;
+        height: 90vh;
+    }
+    .main-2-banner-section h1{
+        font-size: 2em;
+    }
+    .main-2-banner-section .btn{
+        font-size: 1em;
+        padding: 1em 2em;
+    }
+    .banner-img-1{
+        position: absolute;
+        top: 5%;
+        left: 50%;
+    }
+    .banner-img-2{
+        position: absolute;
+        top: 70%;
+        left: 20%;
+    }
+}
+
+/* media small device end */
+/* media quary end */
