@@ -1,0 +1,106 @@
+/* Global style start */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.main-title{
+    font-size: 3em;
+}
+.description{
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    line-height: 2em;
+}
+.btn{
+    font-size: 1.2em;
+    padding: 1em 3em;
+    border-radius: 50px;
+    border: none;
+    background-color:#f05510 ;
+    color: white;
+}
+/* Global style end */
+
+
+/* header section start */
+.main-banner-section{
+    background-image: url(images/1525.jpg);
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+}
+.banner-description{
+    position: relative;
+    top: 10%;
+    left: 55%;
+    width: 32em;
+    height: 30em;
+    background-color: white;
+    padding: 2%;
+    box-shadow: 2px 2px 15px 3px rgb(45, 47, 48);
+}
+
+/* header section end */
+@media screen and (max-width: 576px) {
+    .main-banner-section{
+        background-position: left;
+        background-size: cover;
+    }
+    .banner-description{
+        top: 10%;
+        left: 2%;
+        right: 2%;
+        width: 20em;
+        height: 30em;
+        margin: 0 auto;
+    }
+    .banner-description h2{
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+    .banner-description .btn{
+        position: relative;
+        left: 10%;
+    }
+}
+
+/* media section start */
+/* media simple device start */
+@media screen and (min-width: 577px and max-width: 990px) {
+    .banner-description{
+        top: 10%;
+        left: 2%;
+        right: 2%;
+        width: 20em;
+        height: 30em;
+        margin: 0 auto;
+    }
+    .banner-description h2{
+        font-size: 2.5em;
+        margin-bottom: 1em;
+    }
+    .banner-description .btn{
+        position: relative;
+        left: 10%;
+    }
+}
+
+/* media simple device end */
+
+
+
+/* media midle device start */
+
+/* media midle device end */
+
+/* media section end */
